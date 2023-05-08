@@ -1,0 +1,5 @@
+setup.py
+hamzaGlyph.egg-info/PKG-INFO
+hamzaGlyph.egg-info/SOURCES.txt
+hamzaGlyph.egg-info/dependency_links.txt
+hamzaGlyph.egg-info/top_level.txt
