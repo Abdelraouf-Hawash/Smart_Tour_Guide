@@ -1,4 +1,4 @@
-# BY: Abdelraouf Hawash
+# BY: Mahmoud Hamza & Abdelraouf Hawash
 # IN: 29 Apr 2023
 
 import socket
