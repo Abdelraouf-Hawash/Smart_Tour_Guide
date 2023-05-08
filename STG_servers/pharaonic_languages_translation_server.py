@@ -1,18 +1,19 @@
 # BY: Mahmoud Hamza & Abdelraouf Hawash
 # IN: 29 Apr 2023
-
+from hamzaGlyph.full import run_1,run_2
 import socket
 import time
 import threading
 
 def translate(picture_path):
     
-    # processing...
-    # ...
-    result = "still working on translation service"
-    # ...
-
+    # Call the run_1() function
+    img = run_1(source=pic_path)
+    # Call the run_2() function
+    result=run_2()
     return result
+
+
 
 def receiveThread(conn):
     conn.settimeout(3)
