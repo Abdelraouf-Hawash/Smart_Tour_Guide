@@ -10,15 +10,17 @@ def listen_audio():
 
     try:
         print("Processing audio...")
-        query = recognizer.recognize_google(audio)
-        print("You asked:", query)
-        return query
+        return audio
     except sr.UnknownValueError:
         print("Sorry, I could not understand your question.")
         return None
     except sr.RequestError:
         print("Sorry, I am unable to process your request.")
         return None
+
+def save_audio(audio, filename):
+    with open(filename, "wb") as f:
+        f.write(audio.get_wav_data())
 
 def search_wikipedia(query):
     try:
@@ -33,7 +35,7 @@ def search_wikipedia(query):
         formatted_response = "\n".join(lines[:5])  # Limit to 5 lines
         return formatted_response
     except wikipedia.exceptions.DisambiguationError as e:
-        print("Multiple results found. Please provide more specific query.")
+        print("Multiple results found. Please provide a more specific query.")
         return None
     except wikipedia.exceptions.PageError:
         print("No results found. Please try a different query.")
@@ -48,14 +50,22 @@ def display_answer(answer):
     window.mainloop()
 
 def main():
-    query = listen_audio()
-    if query:
+    recognizer = sr.Recognizer()
+    filename = "recorded_audio.wav"
+    audio = listen_audio()
+    if audio:
+        # Save the recorded audio as a .wav file
+        save_audio(audio, filename)
+
+        # Search Wikipedia for the user's query
+        query = recognizer.recognize_google(audio)
         search_result = search_wikipedia(query)
         if search_result:
             display_answer(search_result)
         else:
             print("I'm sorry, I couldn't find a relevant answer.")
 
+
+
 if __name__ == "__main__":
     main()
-
