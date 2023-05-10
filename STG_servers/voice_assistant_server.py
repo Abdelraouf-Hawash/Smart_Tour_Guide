@@ -1,22 +1,53 @@
-# BY: Yara Essam Ellakany & Alaa Taha Elmaria & Abdelraouf Hawash
+# BY: Alaa Taha Elmaria & Abdelraouf Hawash
 # IN: 29 Apr 2023
 
 import socket
 import time
 import threading
+import speech_recognition as sr
+import wikipedia
+import textwrap
+
+
+def search_wikipedia(query):
+
+    try:
+        page = wikipedia.page(query)
+        content = page.content
+        # wrapping content of maximum 35 characters for each line
+        lines = textwrap.wrap(content, 34)
+        # Limit to 10 lines
+        if len(lines) > 10:
+            lines = "\n".join(lines[:10])
+        else:
+            lines = "\n".join(lines)
+        return lines
+    except wikipedia.exceptions.DisambiguationError as e:
+        return "Multiple results found. \nPlease provide a more specific query."
+    
+    except wikipedia.exceptions.PageError:
+        return "No results found. \nPlease try a different query."
+    
 
 def voice_assistant(voice_path):
     
-    # processing...
-    # ...
-    # ...
-    result = "still working on assistant service"
-    # ...
+    # audio object 
+    recognizer = sr.Recognizer()
+    # read audio object and transcribe
+    audio = sr.AudioFile(voice_path)
+    with audio as source:
+        audio = recognizer.record(source)  
+    # Processing audio to get text
+    try:
+        text = recognizer.recognize_google(audio)
+    except:
+        return "I don't understand!"
+    # Search Wikipedia for the user's query
+    return search_wikipedia(text)
 
-    return result
 
 def receiveThread(conn):
-    conn.settimeout(3)
+    conn.settimeout(15)
     tmp = b''
     line = True
     while line:
@@ -35,10 +66,14 @@ def receiveThread(conn):
     file.close()
     # get voice assistant result
     assistant_result = voice_assistant(path)
-    if assistant_result:
+    print(assistant_result)
+    # sending result
+    try:
         conn.send(bytes(assistant_result, 'utf-8'))
-    else:
-        conn.send(b'')
+    except:
+        print("connection error")
+        conn.close()
+        return
     # close connection
     conn.close()
     print('connection closed')
