@@ -50,7 +50,8 @@ while True:
             # isolated word recognition
             lcd.display(image.Image("/sd/multimedia/images/LCD_frames/speak_now.jpg") )
             stg.play_wav(path= "/sd/multimedia/audios/effects/record.wav", volume= 10)
-            gc.collect()
+            # gc.collect()
+            time.sleep_ms(200)
             recognition = stg.speech_recognition()
             lcd.clear()
 
