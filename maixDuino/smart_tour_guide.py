@@ -197,6 +197,7 @@ def speech_recognition():
     gc.collect()
     return None
 
+
 def face_recognition(ACCURACY= 70, volume= 10):
     '''
     this func used for face recognition
@@ -297,6 +298,7 @@ def face_recognition(ACCURACY= 70, volume= 10):
     a = kpu.deinit(task_fd)
     gc.collect()
 
+
 def get_face_features():
     '''
     this func used to get face feature from cam
@@ -381,7 +383,7 @@ def info_frame(info = '', x= 10, y=20, scale= 1.6, bg= (200, 200, 200), fg= (255
     return loading
 
 
-def sendFile_receiveText(path, addr):
+def sendFile_receiveText(path, addr, timeout = 10):
     '''
     this function sends file to server with address
     return with received text and return with None if there is a connection error
@@ -390,7 +392,7 @@ def sendFile_receiveText(path, addr):
     try:
         sock = socket.socket()
         sock.connect(addr)
-        sock.settimeout(5)
+        sock.settimeout(timeout)
     except Exception as e:
         print("connect error:", e)
         sock.close()
@@ -436,6 +438,7 @@ def sendFile_receiveText(path, addr):
     sock.close()
     return data
 
+
 def voice_assistant(addr, recordTime_s= 5, volume= 10):
     '''
     this func used to record voice then send it to remote server and get assistant result
@@ -443,10 +446,10 @@ def voice_assistant(addr, recordTime_s= 5, volume= 10):
 
     global click_num
     # user setting
-    sample_rate   = 2000
+    sample_rate   = 8000
     # default settings
     sample_points = 2048
-    wav_ch        = 2
+    wav_ch        = 1
     frame_cnt = recordTime_s*sample_rate//sample_points
     # init i2s0
     mic_dev = I2S(I2S.DEVICE_0)
@@ -477,7 +480,7 @@ def voice_assistant(addr, recordTime_s= 5, volume= 10):
             play_wav(path= "/sd/multimedia/audios/effects/pop2.wav", volume= volume)
             # send wav
             lcd.display(image.Image("/sd/multimedia/images/LCD_frames/loading.jpg"))
-            ret = sendFile_receiveText(path= "/sd/tmp/record.wav", addr= addr)
+            ret = sendFile_receiveText(path= "/sd/tmp/record.wav", addr= addr, timeout = 25)
             if ret is not None :
                 lcd.display(info_frame(info = str(ret)))
                 while click_num == 0 : time.sleep_ms(100)
@@ -625,8 +628,6 @@ def STG_info(volume= 10):
     # show STG_team frame
     lcd.display(image.Image("/sd/multimedia/images/LCD_frames/STG_team.jpg") )
     play_wav(path= "/sd/multimedia/audios/assistant/STG_team_info.wav", volume= volume)
-    # stop until key clicked
-    while click_num == 0 : time.sleep_ms(100)
     # display STG telegram QR-code frame
     lcd.display(image.Image("/sd/multimedia/images/LCD_frames/STG_telegram.jpg") )
     time.sleep(1)
