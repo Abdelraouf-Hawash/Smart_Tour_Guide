@@ -2,7 +2,7 @@
 A graduation project that make the tourists feel a more enjoyable and beneficial experience when entering archaeological museums
 
 
-<img src="media/View5.jpg" width="1000"/>
+<img src="media/view3.jpg" width="1000"/>
 
 
 
