@@ -14,7 +14,7 @@ A graduation project that make the tourists feel a more enjoyable and beneficial
       </p>
     </th>
         <th><p align="center">
-           <a href="./P2__pharaonic_languages_translation"><img src="./media/pharaonic_languages_translation.jpg" alt="Overview" width="33%" height="50%"></a>
+           <a href="./P2__pharaonic_languages_translation"><img src="./media/pharaonic_languages_translation.jpg" alt="Overview" width="100" height="50%"></a>
            <br>P2: Pharaonic languages translation
            <br><a href="./P2__pharaonic_languages_translation" name="p2_code">(code)</a>
         </p>
@@ -40,7 +40,7 @@ A graduation project that make the tourists feel a more enjoyable and beneficial
         </p>
     </th>
        <th><p align="center">
-           <a href="./P6__Sign_language_translation"><img src="./media/sign_language_translation.jpg" alt="Overview" width="33%" height="50%"></a>
+           <a href="./P6__Sign_language_translation"><img src="./media/sign_language_translation.png" alt="Overview" width="33%" height="50%"></a>
            <br>P6: Sign language translation
            <br><a href="./P6__Sign_language_translation" name="p3_code">(code)</a>
         </p>
