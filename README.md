@@ -8,7 +8,7 @@ A graduation project that make the tourists feel a more enjoyable and beneficial
  <tr>
     <th>
       <p align="center">
-           <a href="./P1__STG_glasses"><img src="./media/view14.jpg" alt="Projects" width="60%" height="60%"></a>
+           <a href="./P1__STG_glasses"><img src="./media/view14.jpg" alt="Overview" width="60%" height="60%"></a>
            <br>P1: STG glasses
            <br><a href="./P1__STG_glasses/maixDuino/main.py" name="p1_code">(code)</a>
       </p>
@@ -45,6 +45,7 @@ A graduation project that make the tourists feel a more enjoyable and beneficial
            <br><a href="./P6__Sign_language_translation" name="p3_code">(code)</a>
         </p>
   </tr>
+</table>
  
 ### By:
  <p align="center">
