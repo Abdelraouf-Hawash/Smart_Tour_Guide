@@ -1,0 +1,59 @@
+Text to Speech Online:
+	https://www.narakeet.com/app/text-to-audio
+	- Language: English - British 
+	- voice: Victoria 
+	- Volume: standard
+	- speed: custom : normal - 1 or 2
+	- extension: wav
+	- Output: single audio file
+
+### audios
+
+- welcome
+	welcome to Smart tour guide​.
+	created by STG team.
+	
+- howCanIHelpYou
+	how can i help you?
+	
+- problem
+	There is a problem!​
+	
+- STG_team_info
+	STG is a team of students who studied at the Faculty of Artificial Intelligence at Kafrelsheikh University from 2019 to 2023.
+	They made smart tour guide glasses as their graduation project.
+	Dr. Ali Siam and Eng. Abdelmawla Youssef were their supervisors.
+	The team members are:
+	
+		- Abdelraouf Abdelmonem Abdelhakeem Abdelmaboud.
+		- Mahmoud Hamza Mohammed.
+		- Mohammad Yasser Ahmed Fathalla.
+		- Abdelrahman İbrahim kamal eldin İbrahim.
+		- Ali Tarek Ali Mohamed.
+		- Ola Emad Naseem Zahran.
+		- Alaa Taha Elmaria.
+		- Yara Essam Ellakany.
+
+- faceRecognition
+	face recognition service.
+	
+- voiceAssistant
+	Voice assistant service.
+		
+- translation
+	ancient language translation service.
+	
+- QR_srv
+	QR-code reader service.
+	
+- capture_srv
+	capture service.
+	
+- music_srv
+	music player service.
+	
+- time_srv
+	time service.
+	
+- STG_srv
+	STG team information.
