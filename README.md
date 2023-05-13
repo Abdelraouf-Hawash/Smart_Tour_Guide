@@ -46,6 +46,7 @@ A graduation project that make the tourists feel a more enjoyable and beneficial
         </p>
   </tr>
 
+ ---
 
 ## Table of Contents
 
