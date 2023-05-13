@@ -45,9 +45,13 @@ A graduation project that make the tourists feel a more enjoyable and beneficial
            <br><a href="./P6__Sign_language_translation" name="p3_code">(code)</a>
         </p>
   </tr>
+ 
+### By:
+ <p align="center">
+  <img src="./media/STG_team-logo.png" width="400">
+</p>
 
  ---
-
 ## Table of Contents
 
 #### [P1 - STG glasses](./P1__STG_glasses)
@@ -74,8 +78,3 @@ A graduation project that make the tourists feel a more enjoyable and beneficial
  - **Summary:** ...
  - **Keywords:** ...
  
- ## By:
- 
- <p align="center">
-  <img src="./media/STG_team-logo.png" width="800">
-</p>
