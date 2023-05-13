@@ -39,7 +39,7 @@ A graduation project that make the tourists feel a more enjoyable and beneficial
       <p align="center">
         <a href="./P5__Voice_assistant"><img src="./media/voice_assistant.jpg" alt="Overview" width="200" height="200"></a>
         <br>P5: Voice assistant
-        <br><a href="./P5__Voice_assistant" name="p2_code">(code)</a>
+        <br><a href="./P5__Voice_assistant/main.py" name="p2_code">(code)</a>
      </p>
     </th>
      <th>
