@@ -55,7 +55,7 @@ A graduation project that make the tourists feel a more enjoyable and beneficial
 ## Table of Contents
 
 #### [P1 - STG glasses](./P1__STG_glasses)
- - **Summary:** STG glasses hardware project...
+ - **Summary:** STG glasses (hardware project) Which provides some services to tourists to make the tourism experience more beautiful.
  - **Keywords:** MaixDuino, MicroPython, Computer Vision, Speech Recognition, Network, Deep Learning
  
 #### [P2 - Pharaonic languages translation](./P2__pharaonic_languages_translation)
