@@ -1,16 +1,17 @@
-# BY: Abdelraouf Hawash
+# BY: Mahmoud Hamza Abdella  & Abdelraouf Hawash
 # IN: 29 Apr 2023
 
+import cv2
 import socket
 import time
 import threading
+from ..P2__pharaonic_languages_translation import after
 
-def translate(picture_path):
-    
+
+def translate(picture_path):  
     # processing...
-    # ...
-    result = "still working on translation service"
-    # ...
+    
+    result =run_2(source=picture_path) 
 
     return result
 
