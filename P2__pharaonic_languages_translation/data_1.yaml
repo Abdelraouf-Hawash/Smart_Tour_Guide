@@ -1,0 +1,12 @@
+names:
+- cartouche
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: datectionandlocalization
+  url: https://universe.roboflow.com/custom-z3uqd/datectionandlocalization/dataset/1
+  version: 1
+  workspace: custom-z3uqd
+test: ../test/images
+train: /content/datasets/hamza-1/train/images
+val: /content/datasets/hamza-1/valid/images

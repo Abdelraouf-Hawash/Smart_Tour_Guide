@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 20
+names: ['Heliopolis', 'Imn', 'Maat', 'Mn', 'Mry', 'Ms-Sw', 'Phty', 'R', 'Ruler of', 'Wsr', 'a', 'i', 'm', 'ms', 'n', 's', 'sw', 'u', 'w', 'wn']
+
+roboflow:
+  workspace: custom-z3uqd
+  project: hamza_2
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/custom-z3uqd/hamza_2/dataset/3

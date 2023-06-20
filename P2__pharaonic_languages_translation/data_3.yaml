@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['cartouche']
+
+roboflow:
+  workspace: custom-z3uqd
+  project: hamza-axn6y
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/custom-z3uqd/hamza-axn6y/dataset/2

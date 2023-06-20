@@ -1,0 +1,15 @@
+names:
+- a
+- n
+- s
+- u
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: datectionandlocalization_2
+  url: https://universe.roboflow.com/custom-z3uqd/datectionandlocalization_2/dataset/2
+  version: 2
+  workspace: custom-z3uqd
+test: ../test/images
+train: /content/datasets_2/hamza_2-2/train/images
+val: /content/datasets_2/hamza_2-2/valid/images
