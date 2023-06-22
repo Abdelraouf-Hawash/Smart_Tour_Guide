@@ -86,6 +86,8 @@ solutions like Festival or eSpeak.
  - **Summary:** It is also equipped with a language translation feature, so it can translate  
 from one language to another.
  - **Keywords:** stt , tts, translate
+
 google translate library : https://pypi.org/project/translate/
+
 speech to text library : https://pypi.org/project/stt/
  
