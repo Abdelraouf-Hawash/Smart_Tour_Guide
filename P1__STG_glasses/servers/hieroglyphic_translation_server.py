@@ -17,7 +17,7 @@ parent_dir = os.path.dirname(os.path.dirname(current_dir))
 # Add the parent directory to sys.path
 sys.path.append(parent_dir)
 
-from P2__pharaonic_languages_translation import after
+from P2__pharaonic_languages_translation.after import run_2
 #return to current directory
 
 sys.path.append(current_dir)
