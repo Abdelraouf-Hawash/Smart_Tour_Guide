@@ -81,7 +81,7 @@ solutions like Festival or eSpeak.
    
 #### Natural Language Translation
 
-<img src="https://technologianews.com/wp-content/uploads/2022/07/%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-%D9%81%D9%8A%D8%B3%D8%A8%D9%88%D9%83.jpg" alt="Some Content">
+<img src="https://technologianews.com/wp-content/uploads/2022/07/%D8%AA%D8%B1%D8%AC%D9%85%D8%A9-%D9%81%D9%8A%D8%B3%D8%A8%D9%88%D9%83.jpg" style="width:100px;height:100px>
 
  - **Summary:** It is also equipped with a language translation feature, so it can translate  
 from one language to another.
