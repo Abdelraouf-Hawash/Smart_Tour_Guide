@@ -7,6 +7,7 @@ Used voice assistant , The user will enter any question he wants to know the ans
 whether about kings, museums, or any question related to archaeological 
 monuments, etc. Then the program will take this question asked and search 
 for it in Google, then it will show the answer to the question to the user , this assistant also can translate any language to facilitiate understanding to tourists.
+![image](https://github.com/Abdelraouf-Hawash/Smart_Tour_Guide/assets/72944935/3a674fd8-49d9-4a5e-bbd4-67002c908def)
 
 ## Table of Contents
 
