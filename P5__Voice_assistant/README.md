@@ -81,7 +81,7 @@ solutions like Festival or eSpeak.
    
 #### Natural Language Translation
 
-<img src="stock-vector-intercultural-communication-flat-vector-illustration-multinational-people-with-hello-in-speech-1425689270.jpg" alt="Some Content">
+<img src="[stock-vector-intercultural-communication-flat-vector-illustration-multinational-people-with-hello-in-speech-1425689270.jpg](https://technologianews.com/42335/%D9%81%D9%8A%D8%B3%D8%A8%D9%88%D9%83-%D8%B3%D8%AA%D9%82%D8%AF%D9%85-%D8%A3%D9%81%D8%B6%D9%84-%D8%AE%D8%AF%D9%85%D8%A9-%D8%AA%D8%B1%D8%AC%D9%85%D8%A9/)" alt="Some Content">
 
  - **Summary:** It is also equipped with a language translation feature, so it can translate  
 from one language to another.
