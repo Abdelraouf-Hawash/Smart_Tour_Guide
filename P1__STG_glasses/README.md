@@ -8,13 +8,12 @@ STG provides the usual uses  like kings' face recognition then providing informa
 
 ## Table of Contents
 
-#### maixDuino
+#### [maixDuino](./maixDuino)
  - This path contains programs and data that loaded on MaixDuino SD card.
  
-#### servers
+#### [servers](./servers)
  - This path contains python files than run on remote servers to serve STG glass.
  
-#### CAD
+#### [CAD](./CAD)
  - this path contains CAD files for STG glasses 3D printing.
- 
  
