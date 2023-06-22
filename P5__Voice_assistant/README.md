@@ -7,6 +7,9 @@ Used voice assistant , The user will enter any question he wants to know the ans
 whether about kings, museums, or any question related to archaeological 
 monuments, etc. Then the program will take this question asked and search 
 for it in Google, then it will show the answer to the question to the user , this assistant also can translate any language to facilitiate understanding to tourists.
+It is also equipped with a language translation feature, so it can translate  
+from one language to another, and it has a feature to know what the current 
+weather is like. It can play some music, videos or audio clip.
 
 ![image](https://github.com/Abdelraouf-Hawash/Smart_Tour_Guide/assets/72944935/3a674fd8-49d9-4a5e-bbd4-67002c908def)
 
@@ -19,9 +22,12 @@ service that supports the programming language or platform you are
 working with. Popular options include libraries like Google's 
 Speech-to-Text, Microsoft Azure Speech Service, or CMU Sphinx.
 
+
+
  - **Keywords:** speech_recognition, requests , playsound
    
 Speech Recognition Library : https://pypi.org/project/SpeechRecognition/
+
 
  ![image](https://github.com/Abdelraouf-Hawash/Smart_Tour_Guide/assets/72944935/4889c75e-f131-447d-88ff-1edf27c5bb70)
 
@@ -73,7 +79,9 @@ solutions like Festival or eSpeak.
 
    
    
-#### C
- - **Summary:** ...
- - **Keywords:** ...
+#### Natural Language Translation
+ - **Summary:** It is also equipped with a language translation feature, so it can translate  
+from one language to another.
+ - **Keywords:** stt , tts
+ speech to text library : https://pypi.org/project/stt/
  
