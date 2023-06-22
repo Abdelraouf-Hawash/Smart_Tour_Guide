@@ -1,5 +1,4 @@
-# Project name
-Voice Assistant
+# Voice Assistant
 
 
 ## Overview
@@ -13,7 +12,6 @@ weather is like. It can play some music, videos or audio clip.
 
 ![image](https://github.com/Abdelraouf-Hawash/Smart_Tour_Guide/assets/72944935/3a674fd8-49d9-4a5e-bbd4-67002c908def)
 
-## Table of Contents
 
 #### Speech Recognition
  - **Summary:** Implement a speech recognition system to 
