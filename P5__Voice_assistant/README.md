@@ -6,7 +6,7 @@ Voice Assistant
 Used voice assistant , The user will enter any question he wants to know the answer to, 
 whether about kings, museums, or any question related to archaeological 
 monuments, etc. Then the program will take this question asked and search 
-for it in Google, then it will show the answer to the question to the user.
+for it in Google, then it will show the answer to the question to the user , this assistant also can translate any language to facilities understanding to tourists.
 
 ## Table of Contents
 
