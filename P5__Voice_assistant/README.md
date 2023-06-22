@@ -20,6 +20,7 @@ working with. Popular options include libraries like Google's
 Speech-to-Text, Microsoft Azure Speech Service, or CMU Sphinx.
 
  - **Keywords:** speech_recognition, requests , playsound
+   
 Speech Recognition Library : https://pypi.org/project/SpeechRecognition/
 
  ![image](https://github.com/Abdelraouf-Hawash/Smart_Tour_Guide/assets/72944935/4889c75e-f131-447d-88ff-1edf27c5bb70)
@@ -27,6 +28,10 @@ Speech Recognition Library : https://pypi.org/project/SpeechRecognition/
  
 
 #### Natural Language Processing (NLP)
+
+![image](https://github.com/Abdelraouf-Hawash/Smart_Tour_Guide/assets/72944935/ee9d0d1e-bdec-44d7-b256-5967dcad0b19)
+
+
  - **Summary:** Develop natural language 
 processing capabilities to understand and interpret user commands. 
 Apply techniques such as intent recognition, entity extraction, and 
@@ -36,6 +41,9 @@ assist in implementing these capabilities.
  - **Keywords:** pyttsx3 , pyjokes , pywhatkit , wikipedia
  
 #### Task Execution
+
+![image](https://github.com/Abdelraouf-Hawash/Smart_Tour_Guide/assets/72944935/e033f66b-bb9d-4104-9043-74b11a4ddbd8)
+
  - **Summary:**  Implement the logic to perform tasks based on user 
 commands. This can involve integrating with various APIs or 
 services to accomplish specific actions, such as retrieving 
@@ -45,6 +53,9 @@ enable seamless task execution.
  - **Keywords:**  requests , webbrowser , openweather API 
    
 #### Text-to-Speech (TTS) Conversion
+
+![image](https://github.com/Abdelraouf-Hawash/Smart_Tour_Guide/assets/72944935/24a90ce1-1eef-4e1a-87a9-20a02c841090)
+
  - **Summary:**  Implement a text-to-speech 
 system to convert the assistant's responses into spoken words. 
 Utilize a TTS library or service that can generate natural-sounding 
