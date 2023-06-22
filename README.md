@@ -1,5 +1,9 @@
 # Smart_Tour_Guide
-A graduation project that make the tourists feel a more enjoyable and beneficial experience when entering archaeological museums
+
+Today, tourism comes at the forefront of the sources of national income, and what serves tourism is to provide an exceptional experience for the tourist, and in response to this matter, this project was, which is a smart glasses equipped with a voice assistant capable of translating the hieroglyphic language, and just as the wonderful discovery of Champollion unveiled the secrets of the ancient Egyptian civilization, this The project will offer the tourist a translation of texts written in hieroglyphics without effort, in addition to the feature of identifying historical figures and presenting information about them. It is also equipped with the ability to identify tourist attractions in addition to translation between natural languages, which provides the tourist with what he needs without the need for a tour guide, which makes it wonderful for him and increases the demand for tourism.
+
+Smart tour guide (STG) is a technology that combines augmented reality with tourism. It is a wearable device that can provide visitors with information about the places they are visiting, making their experience more immersive and informative. The smart glasses tour guide works by overlaying digital information onto the physical world, enhancing the visitor's view of their surroundings.
+
 
 ## Overview
 
