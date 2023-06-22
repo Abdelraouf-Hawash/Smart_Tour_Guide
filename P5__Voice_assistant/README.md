@@ -80,6 +80,9 @@ solutions like Festival or eSpeak.
    
    
 #### Natural Language Translation
+
+![image](stock-vector-intercultural-communication-flat-vector-illustration-multinational-people-with-hello-in-speech-1425689270.jpg)
+
  - **Summary:** It is also equipped with a language translation feature, so it can translate  
 from one language to another.
  - **Keywords:** stt , tts
