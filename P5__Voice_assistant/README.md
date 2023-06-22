@@ -20,7 +20,12 @@ working with. Popular options include libraries like Google's
 Speech-to-Text, Microsoft Azure Speech Service, or CMU Sphinx.
 
  - **Keywords:** speech_recognition, requests , playsound
+Speech Recognition Library : https://pypi.org/project/SpeechRecognition/
+
+ ![image](https://github.com/Abdelraouf-Hawash/Smart_Tour_Guide/assets/72944935/4889c75e-f131-447d-88ff-1edf27c5bb70)
+
  
+
 #### Natural Language Processing (NLP)
  - **Summary:** Develop natural language 
 processing capabilities to understand and interpret user commands. 
