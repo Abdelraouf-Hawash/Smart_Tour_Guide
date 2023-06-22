@@ -30,7 +30,7 @@ A graduation project that make the tourists feel a more enjoyable and beneficial
  <tr>
     <th>
       <p align="center">
-           <a href="./P4__landmarks_recognition"><img src="media/landmarks_recognition.jpg" alt="Overview" width="200" height="200"></a>
+           <a href="./P4__landmarks_recognition"><img src="./media/landmarks_recognition.jpg" alt="Overview" width="200" height="200"></a>
            <br>P4: Landmarks recognition
            <br><a href="./P4__landmarks_recognition" name="p1_code">(code)</a>
       </p>
