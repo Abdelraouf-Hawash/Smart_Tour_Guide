@@ -39,8 +39,12 @@ sentiment analysis to extract meaning from the user's input. NLP
 frameworks like spaCy, NLTK, or the Natural Language Toolkit can 
 assist in implementing these capabilities.
  - **Keywords:** pyttsx3 , pyjokes , pywhatkit , wikipedia
+
+   
  
 #### Task Execution
+
+
 
 ![image](https://github.com/Abdelraouf-Hawash/Smart_Tour_Guide/assets/72944935/e033f66b-bb9d-4104-9043-74b11a4ddbd8)
 
@@ -50,9 +54,12 @@ services to accomplish specific actions, such as retrieving
 information from a database, making API requests, or executing 
 predefined functions. Develop the necessary code and connectors to 
 enable seamless task execution. 
- - **Keywords:**  requests , webbrowser , openweather API 
+ - **Keywords:**  requests , webbrowser , openweather API
+
+   
    
 #### Text-to-Speech (TTS) Conversion
+
 
 ![image](https://github.com/Abdelraouf-Hawash/Smart_Tour_Guide/assets/72944935/24a90ce1-1eef-4e1a-87a9-20a02c841090)
 
@@ -62,7 +69,9 @@ Utilize a TTS library or service that can generate natural-sounding
 speech from text. Popular options include libraries like Google's 
 Text-to-Speech, Microsoft Azure Text-to-Speech, or open-source 
 solutions like Festival or eSpeak. 
- - **Keywords:** gtts 
+ - **Keywords:** gtts
+
+   
    
 #### C
  - **Summary:** ...
