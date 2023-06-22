@@ -5,8 +5,22 @@ import cv2
 import socket
 import time
 import threading
-from ..P2__pharaonic_languages_translation import after
+import sys
+import os
 
+# Get the current directory
+current_dir = os.getcwd()
+
+# Move two levels up
+parent_dir = os.path.dirname(os.path.dirname(current_dir))
+
+# Add the parent directory to sys.path
+sys.path.append(parent_dir)
+
+from P2__pharaonic_languages_translation import after
+#return to current directory
+
+sys.path.append(current_dir)
 
 def translate(picture_path):  
     # processing...
