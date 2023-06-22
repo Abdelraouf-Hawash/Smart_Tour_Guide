@@ -1,5 +1,5 @@
 # Project name
-Voice Assistat
+Voice Assistant
 
 
 ## Overview
