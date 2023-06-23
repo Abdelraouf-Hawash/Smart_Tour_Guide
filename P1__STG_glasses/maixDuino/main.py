@@ -14,7 +14,7 @@ VOLUME = 10
 
 # network connection
 lcd.draw_string(15, 20, "try esp32 connect wi-fi...", lcd.WHITE)
-isConnected, ifConfig = stg.connect_network(SSID = "Raouf_wi-fi", PASW = "abdelraouf35711")
+isConnected, ifConfig = stg.connect_network(SSID = "network", PASW = "123456789")
 if isConnected : lcd.draw_string(15, 40, "  {} / {}".format(ifConfig[0], ifConfig[1]), lcd.WHITE)
 else : lcd.draw_string(15, 40, "no network connection", lcd.RED)
 
