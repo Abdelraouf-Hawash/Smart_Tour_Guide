@@ -1,5 +1,5 @@
 # Project name
-Identify statues of pharaohs ![image](https://github.com/Abdelraouf-Hawash/Smart_Tour_Guide/assets/59257651/25ca01f7-bd55-4b61-af9d-682b6bd26c63)
+Identify statues of pharaohs
 
 
 
