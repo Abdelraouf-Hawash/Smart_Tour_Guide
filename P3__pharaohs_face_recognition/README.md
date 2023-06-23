@@ -1,7 +1,4 @@
-# Project name
-Identify statues of pharaohs
-
-
+# Identify statues of pharaohs
 
 ## Overview
 One of the most important ancient Egyptian monuments found in most archaeological sites are the statues of the kings and queens of Egypt, which were carved to perpetuate their achievements.
