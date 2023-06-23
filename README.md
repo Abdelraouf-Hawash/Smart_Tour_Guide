@@ -63,26 +63,25 @@ Smart tour guide (STG) is a technology that combines augmented reality with tour
  - **Keywords:** MaixDuino, MicroPython, Computer Vision, Speech Recognition, Network, Deep Learning
  
 #### [P2 - Pharaonic languages translation](./P2__pharaonic_languages_translation)
- - **Summary:** ...
- - **Keywords:** ...
+ - **Summary:** This feature helps the tourist to understand the ancient Egyptian texts in a smooth manner
+ - **Keywords:** hieroglyphic, YOLO, arrangement algorithm, modification algorithm
  
 #### [P3 - Pharaohs face recognition](./P3__pharaohs_face_recognition)
- - **Summary:** ...
- - **Keywords:** ...
+ - **Summary:** This service helps tourists to identify the king or queen, then tourists can know about them and their achievements.
+ - **Keywords:** OpenCV and face_recognition, YOLO
   
 #### [P4 - Landmarks recognition](./P4__landmarks_recognition)
- - **Summary:** ...
- - **Keywords:** ...
+ - **Summary:** Landmark Detection and Localization function that Apply the trained model to new images to detect and localize the landmarks.
+ - **Keywords:** YOLO, non-maximum suppression
   
 #### [P5 - Voice assistant](./P5__Voice_assistant)
- - **Summary:** Used voice assistant , The user will enter any question he wants to know the answer to, whether about kings, museums, or any question related to archaeological monuments, etc. Then the program will take this question asked and search for it in Google, then it will show the answer to the question to the user , this assistant also can translate any language to facilitiate understanding to tourists.
-It is also equipped with a language translation feature, so it can translate from one language to another.
+ - **Summary:** The user will enter any question he wants to know the answer to, whether about kings, museums, etc. It is also equipped with a language translation feature, so it can translate from one language to another.
 
  - **Keywords:** gtts , openweather API , playsound , speech_recognition , googletrans , NLP , TTS, STT 
   
 #### [P6 - Sign language translation](./P6__Sign_language_translation)
- - **Summary:** ...
- - **Keywords:** ...
+ - **Summary:** In sign language, each hand sign refers to a certain character. And the collection of signs can construct a certain word
+ - **Keywords:** MediaPipe, classification
  
  
  <p align="center">
