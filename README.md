@@ -83,6 +83,13 @@ Smart tour guide (STG) is a technology that combines augmented reality with tour
  - **Summary:** In sign language, each hand sign refers to a certain character. And the collection of signs can construct a certain word
  - **Keywords:** MediaPipe, classification
  
+---
+
+ <p align="center">
+  <img src="./media/STG_team3.jpg" width="800">
+</p>
+
+
  
  <p align="center">
   <img src="./media/STG_team-logo.png" width="400">
