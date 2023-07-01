@@ -1,0 +1,16 @@
+#train: ../train/images
+#val: ../valid/images
+#test: ../test/images
+train: ./data/train  # 118287 images
+val: ./data/val  # 5000 images
+test: ./data/test 
+
+nc: 10
+names: ['Al-Hussein mosque', 'Al-azhar mosque', 'abo-simple', 'citadel-qaitbay', 'egytian-pyramids', 'hatshpsut', 'luxor-temple', 'mohamed-ali', 'philae temple', 'the great-sphinx']
+
+roboflow:
+  workspace: artificial-intelligence-uwjkk
+  project: landmark-detect
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/artificial-intelligence-uwjkk/landmark-detect/dataset/1
