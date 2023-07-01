@@ -1,9 +1,13 @@
 # Project name
 ...
+landmark and monument recognition
 
 
 ## Overview
 ...
+Landmark Detection detects popular natural and human-made structures, buildings and monuments within an image. 
+ AND This feature enables tourists to identify the monuments and thus they can learn more information about these monuments and their history by searching with the voice assistant.
+Monument recognition is a challenging problem in the domain of image classification due to huge variations in the architecture of different monuments. Different orientations of the structure play an important role in the recognition of the monuments in their images. 
 
 ## Table of Contents
 
