@@ -28,7 +28,7 @@ Smart tour guide (STG) is a technology that combines augmented reality with tour
       <p align="center">
          <a href="./P3__pharaohs_face_recognition"><img src="./media/pharaohs_face_recognition.jpg" alt="Overview" width="200" height="200"></a>
          <br>P3: Pharaohs face recognition
-         <br><a href="./P3__pharaohs_face_recognition/main.ipynb" name="p3_code">(code)</a>
+         <br><a href="./P3__pharaohs_face_recognition/statues_face_recognition.ipynb" name="p3_code">(code)</a>
       </p>
  </tr>
  <tr>
